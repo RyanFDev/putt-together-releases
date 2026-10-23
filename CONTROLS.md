@@ -12,9 +12,11 @@ These are the default controls. Press **F1** in the game for the searchable refe
 | Space | Jump |
 | F | Find your ball |
 | E near a tee | Place your ball at the tee |
+| E at a drawbridge button | Lower the bridge or extend its open timer |
 | P | Place a practice ball between rounds |
 | Backspace | Retry your lie; a penalty applies during a scored round |
 | Escape | Cancel the current action or release the mouse |
+| Alt+Enter | Toggle fullscreen and restore your previous window |
 
 ## Make a putt
 
@@ -42,13 +44,37 @@ You can strike only your own ball, but rolling balls can collide with one anothe
 | Shift+wheel | Change that same adjustment more finely |
 | Alt+1–6 | Equip a favorite piece |
 | G | Toggle guides |
+| C | Toggle piece/path connections |
+| V | Toggle world-grid snapping |
+| Shift+V | Show or hide the placement grid independently of snapping |
 | H | Open the hole list |
 
 Use the library to choose a piece, then **left-click** to place its preview. **Right-click** cancels. Q/E might select Rotation, Height or Size, depending on the piece. The wheel always changes the highlighted setting; Shift refines it. Tab contains snapping, precision and other tool options. For adjustable pieces, **Tab → Resize dimension** chooses the axis to resize.
 
+While placing, hold **Shift** to temporarily suspend connections and grid snapping.
+Releasing it restores your switches. The visible grid stays available for manual
+alignment, with quarter-metre spacing and stronger metre lines. Drawn path ends
+can dock against a curb as a fitted access ramp.
+
+The drawbridge supports **Deck width**, **Gate height** and **Span length**.
+Its settings also control the open duration (2–30 seconds). Either button lowers
+the bridge; pressing again extends the timer or reverses a closing bridge.
+
 With **Select**, click a piece or **Shift-click** to add/remove pieces from a group. **M** picks up the selection; click to confirm its new position. Use **Ctrl+D** for a copy preview, **X** to mirror a supported single piece, and **Ctrl+R** for a repeated row or curve. **Delete** starts batch removal: click to mark or unmark pieces, then **Enter** confirms. **Ctrl+Z** undoes your edit; an undo can be refused if it would overwrite a friend's newer change.
 
 In **Terrain**, hold left mouse to brush and use middle mouse to sample ground height; right mouse cancels a pending ramp. **Draw** uses clicks for endpoints and right mouse to cancel. **Water** uses held left/right mouse to spray/drain. Middle mouse samples a piece where the active construction tool supports it.
+
+## Equipment and display
+
+Open **Customize** from the menu or Settings. Choose the ball color and pattern,
+then the putter style and finish. Use the 3D preview, then **Apply** to save or
+**Cancel** to keep your old selection. Friends see the equipped choices. All
+starter choices are unlocked and have identical putting physics.
+
+The game fills the window at different aspect ratios. In **Settings**, choose
+borderless or exclusive fullscreen. **Alt+Enter** toggles the selected mode;
+returning to windowed mode restores its prior size and position. The operating
+system and graphics backend determine exclusive presentation behavior.
 
 ## Blueprints, saves and recovery
 

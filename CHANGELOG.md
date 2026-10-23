@@ -3,6 +3,23 @@
 [Latest download](https://github.com/RyanFDev/putt-together-releases/releases/latest)
  · [Getting started](GETTING_STARTED.md)
 
+## 0.1.5 — 23 October 2026
+
+- Refreshed all eleven included course layouts, paths, rest areas, grounding and
+  green boundaries; softened surrounding terrain and repaired furniture details.
+- Planted the spaces between holes and added six reusable landscaping props:
+  river and split boulders, a flat stone, mossy rocks, ferns and a flowering shrub.
+- Added Willowbend's creek, bridges, and Willow Island moat hole with a timed,
+  resizable drawbridge operated from either bank.
+- Added saved ball and putter customization, visible to friends in multiplayer.
+  The starter collection is unlocked; progression rewards are not implemented.
+- Added quick connection/grid switches, an independent visible placement grid,
+  and curb-shaped ramp entrances for paths.
+- Added responsive window/aspect handling, fullscreen preferences and Alt+Enter.
+- Fixed the false unsaved-changes prompt after a quick second course-open click.
+
+[Release and download](https://github.com/RyanFDev/putt-together-releases/releases/tag/v0.1.5)
+
 ## 0.1.4 — 23 October 2026
 
 A maintenance release of the Windows beta. The courses, controls and gameplay

@@ -54,6 +54,13 @@ stroke direction and sensitivity. Easy guides the putter's contact. Advanced
 lets you hit off-centre or miss. Handedness and mouse stroke direction are
 separate settings. Reduce motion and Reduce flashing lights are there too.
 
+Open **Customize** from the menu or Settings to choose your ball's color and
+pattern, putter style and finish. The starter collection is unlocked. These
+choices are cosmetic and are visible to friends in multiplayer.
+
+**Alt+Enter** toggles fullscreen. Settings lets you choose borderless or exclusive
+fullscreen; the game and interface also fit wider, taller or smaller windows.
+
 ## Build something of your own
 
 Choose **Create a park** for an empty outdoor garden or indoor arcade. You can
@@ -65,6 +72,8 @@ also change an included course and use **Save as** to keep your own version.
   **wheel** changes it; hold **Shift** for finer steps. **Tab** opens tool options.
 - **2** selects existing pieces. **M** moves a selection, **Ctrl+D** copies it,
   and **Ctrl+Z** undoes your edit.
+- **C** toggles connections and **V** toggles grid snapping. **Shift+V** shows
+  the placement grid. Hold **Shift** during placement for temporary free positioning.
 - **4** equips Terrain. Choose a brush in **Tab**, then hold left mouse to shape
   or paint the ground. Move existing pieces and balls clear before sculpting
   underneath them.
@@ -75,6 +84,11 @@ also change an included course and use **Save as** to keep your own version.
 The [controls guide](CONTROLS.md) covers drawing paths, resizing pieces,
 blueprints, favourites and the other tools. **F1** opens the current bindings
 inside the game.
+
+Try **Willowbend Ramble** for the creek and signature island hole. Aim at a
+drawbridge button and press **E** to lower it. The countdown starts when it is
+fully lowered; press again to extend the time. A return button is on the island.
+In your own park, the drawbridge's **Tab** options control its size and open time.
 
 ## Keep your work
 
