@@ -3,9 +3,10 @@
 Build a mini-golf course. Invite a few friends. See who can actually finish it.
 
 Putt Together is a first-person mini-golf sandbox for solo play and groups of up
-to four. Shape the ground, lay out tracks, add obstacles and play the course
-with a physical mouse stroke. Outdoor gardens and indoor neon courses use the
-same building tools.
+to four. Build a course together, then draw your putter back and swing through
+with a physical mouse stroke. Everyone can putt at once, and balls can knock
+into each other. Shape outdoor gardens or indoor neon challenges with the same
+building tools.
 
 **[Download for Windows](https://github.com/RyanFDev/putt-together-releases/releases/latest)**
  · [Getting started](GETTING_STARTED.md)
@@ -13,27 +14,24 @@ same building tools.
  · [Multiplayer](MULTIPLAYER.md)
  · [Patch notes](CHANGELOG.md)
 
+[![Watch Putt Together gameplay](images/gameplay-preview.jpg)](media/putt-together-gameplay.mp4)
+
+[30-second in-game demonstration](media/putt-together-gameplay.mp4) · Physical
+putting, building and ball collisions. Captured using a scripted mouse-input
+replay and a staged local collision; this is not an online multiplayer recording.
+[Lightweight preview (GIF)](media/gameplay-preview.gif).
+
 <table>
 <tr>
-<td><img src="images/cloudbank-entrance.png" alt="Cloudbank's path shaped into a ramp at the outside of the curved curb" width="640"></td>
-<td><img src="images/canopy-entrance.png" alt="Clockwork Canopy's fitted path entrance at a raised green" width="640"></td>
+<td><img src="images/physical-putting.jpg" alt="A first-person view of the putter and ball while lining up a physical mouse stroke" width="640"></td>
+<td><img src="images/build-a-challenge.jpg" alt="Building a mini-golf challenge with reusable course pieces" width="640"></td>
 </tr>
-<tr><td>Fitted curb entrance · Cloudbank Gardens</td><td>Path access · Clockwork Canopy</td></tr>
+<tr><td>Draw back and swing through</td><td>Build your own challenge</td></tr>
 <tr>
-<td><img src="images/willow-island.png" alt="Willow Island, with its timed drawbridge and water moat" width="640"></td>
-<td><img src="images/midnight-circuit.png" alt="Midnight Circuit's neon lounge beside the connected visitor paths" width="640"></td>
+<td><img src="images/willow-island.png" alt="Willow Island's playable green, water moat and timed drawbridge" width="640"></td>
+<td><a href="images/customize.jpg"><img src="media/customize.gif" alt="Three ball patterns and putter combinations in the Customize menu" width="640"></a></td>
 </tr>
-<tr><td>Willow Island · Willowbend Ramble</td><td>Midnight Circuit</td></tr>
-<tr>
-<td><img src="images/willow-creek.png" alt="A creek crossing the garden, with a playing bridge and a separate walking bridge" width="640"></td>
-<td><img src="images/prism-junction.png" alt="Prism Junction's raised tee with guarded ramp access" width="640"></td>
-</tr>
-<tr><td>Brookside · Willowbend Ramble</td><td>Prism Junction</td></tr>
-<tr>
-<td><img src="images/garden-landscaping.png" alt="Editable trees, boulders, ferns, shrubs and flowers between the holes at Bramblewick Heights" width="640"></td>
-<td><img src="images/clockwork-canopy.png" alt="Clockwork Canopy's connected paths, seating patios and planted gardens" width="640"></td>
-</tr>
-<tr><td>Bramblewick gardens</td><td>Clockwork Canopy</td></tr>
+<tr><td>Try Willow Island's timed drawbridge</td><td>Choose your ball and putter</td></tr>
 </table>
 
 ## Start playing
@@ -52,28 +50,17 @@ haven't been benchmarked yet.
 
 ## What's in the beta
 
-- **Courses to play and change.** Try a garden course or an indoor arcade, then
-  save your own version. Build with track pieces, ramps, walls, scenery and
-  moving obstacles, or sculpt and paint the terrain.
-- **Eleven refreshed layouts.** Follow connected paths between holes and rest
-  areas, with grounded furnishings, gentler landscaping and bounded greens.
-  Willowbend has a creek, bridges and a signature island green with a timed
-  drawbridge. Falling in the water costs a stroke during a scored round.
-- **Gardens you can build.** Planted areas combine trees, flowers, ferns and
-  shrubs with new boulders, flat stones and mossy rock groups. Each new piece
-  is available in the library for your own layouts.
-- **Your ball and putter.** Open **Customize** to choose a ball color and pattern,
-  a blade, mallet or fork putter, and its finish. The starter collection is unlocked;
-  styles are cosmetic and everyone keeps the same putting physics.
-- **Precise building.** Switch connections and grid snapping independently,
-  show a world grid, fit supported pieces to terrain and resize the drawbridge.
-- **Putting with your mouse.** Draw the club back and swing through. Easy mode
-  guides contact; Advanced allows off-centre hits and misses. Balls can knock
-  into each other, so you don't have to wait for everyone else to putt.
-- **Shared building and rounds.** Host a park for friends, work on it together,
-  and play a scored round. Optional bots fill spare places in the group.
-- **Saved parks and blueprints.** Keep your courses, reuse groups of pieces and
-  recover recent unsaved work through the park browser.
+- **Physical putting.** Easy mode guides contact; Advanced allows off-centre
+  hits and misses. Your mouse movement makes the stroke.
+- **Shared building and simultaneous rounds.** Host a park, build with friends
+  and play a scored round with interacting balls. Optional bots fill spare places.
+- **Build a challenge.** Sculpt and paint terrain, connect tracks and ramps,
+  and add moving obstacles. Connections, grid snapping and reusable blueprints
+  help you fit the pieces together.
+- **Play, change and save.** Explore eleven garden and neon layouts or start
+  a blank park. Save your own courses and recover recent unsaved work.
+- **Your ball and putter.** Choose colors, patterns, putter styles and finishes
+  in **Customize**. The starter collection is unlocked; choices are cosmetic.
 
 ## The first few controls
 
