@@ -3,6 +3,19 @@
 [Latest download](https://github.com/RyanFDev/putt-together-releases/releases/latest)
  · [Getting started](GETTING_STARTED.md)
 
+## 0.1.6 — 23 October 2026
+
+- Repair missing path entrances and awkward joins in the included outdoor parks,
+  including paths that ran beneath curbs or into greens in 0.1.5.
+- Improve the path tool's ramps along slopes and across adjoining curb pieces.
+- Improve Willowbend's walking bridge and drawbridge approaches.
+- Smooth the lighting across fitted path entrances.
+
+After updating, reopen the bundled courses from **Explore parks** for the
+corrected layouts. Existing personal saved copies remain unchanged.
+
+[Release and download](https://github.com/RyanFDev/putt-together-releases/releases/tag/v0.1.6)
+
 ## 0.1.5 — 23 October 2026
 
 - Refreshed all eleven included course layouts, paths, rest areas, grounding and

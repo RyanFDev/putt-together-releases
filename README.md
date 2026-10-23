@@ -15,6 +15,11 @@ same building tools.
 
 <table>
 <tr>
+<td><img src="images/cloudbank-entrance.png" alt="Cloudbank's path shaped into a ramp at the outside of the curved curb" width="640"></td>
+<td><img src="images/canopy-entrance.png" alt="Clockwork Canopy's fitted path entrance at a raised green" width="640"></td>
+</tr>
+<tr><td>Fitted curb entrance · Cloudbank Gardens</td><td>Path access · Clockwork Canopy</td></tr>
+<tr>
 <td><img src="images/willow-island.png" alt="Willow Island, with its timed drawbridge and water moat" width="640"></td>
 <td><img src="images/midnight-circuit.png" alt="Midnight Circuit's neon lounge beside the connected visitor paths" width="640"></td>
 </tr>
