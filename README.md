@@ -137,7 +137,7 @@ information before sharing files.
 
 ## Credits
 
-Created by **KriticalKoncepts**.
+*Vibed by **Ryan Farmer***.
 
 Built with [Godot](https://godotengine.org/) and
 [Terrain3D](https://github.com/TokisanGames/Terrain3D), with assets from
