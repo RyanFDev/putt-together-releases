@@ -15,6 +15,7 @@ These are the default controls. Press **F1** in the game for the searchable refe
 | E at a drawbridge button | Lower the bridge or extend its open timer |
 | P | Place a practice ball between rounds |
 | Backspace | Retry your lie; a penalty applies during a scored round |
+| N | Next hole / finish round after holing out |
 | Escape | Cancel the current action or release the mouse |
 | Alt+Enter | Toggle fullscreen and restore your previous window |
 
@@ -28,9 +29,13 @@ To inspect the line, hold **right mouse while still holding left mouse**. Move l
 
 While looking down the line with right mouse held, the **wheel** changes your distance reference. **Shift+wheel** makes smaller changes. The reference helps judge pace and adjusts mouse travel for finer short putts; it does not set the power of your shot. The preview estimates the current course, including slopes, obstacles and other balls. A partial path is not a promised stopping point. **G** toggles additional guides.
 
-In **Settings**, choose **Easy** for guided contact along the stroke axis, or **Advanced** for sideways movement, glancing hits and possible misses. A miss does not count as a stroke. Handedness changes your stance. The through-stroke direction is a separate setting: the default is left, and you can choose another direction or a custom angle. Draw back in the opposite direction. Swing sensitivity is adjustable too.
+In **Settings → Putting**, choose **Easy** for guided contact along the stroke axis, or **Advanced** for sideways movement, glancing hits and possible misses. A miss does not count as a stroke. Handedness changes your stance. The through-stroke direction is a separate setting: the default is left, and you can choose another direction or a custom angle. Draw back in the opposite direction. Swing sensitivity is adjustable too.
 
 You can strike only your own ball, but rolling balls can collide with one another.
+
+After holing out in a round, press **N** to advance or finish. With Putter
+equipped, **Tab** releases the cursor and focuses **Next hole / Finish round**;
+click or press **Enter**. These shortcuts use your current remapped bindings.
 
 ## Build tools
 
@@ -38,7 +43,7 @@ You can strike only your own ball, but rolling balls can collide with one anothe
 | --- | --- |
 | 1 / 2 / 3 / 4 / 5 / 6 | Putter / Select / Pieces / Terrain / Draw / Water |
 | B | Open the piece library |
-| Tab | Open options for the current tool |
+| Tab | Open tool options; with Putter equipped after holing out, focus Next hole / Finish round |
 | Q / E | Select the previous / next visible adjustment |
 | Wheel | Change the highlighted adjustment |
 | Shift+wheel | Change that same adjustment more finely |
@@ -66,13 +71,14 @@ In **Terrain**, hold left mouse to brush and use middle mouse to sample ground h
 
 ## Equipment and display
 
-Open **Customize** from the menu or Settings. Choose the ball color and pattern,
+Open **Customize** from the menu or **Settings → Display → Customize ball & putter**. Choose the ball color and pattern,
 then the putter style and finish. Use the 3D preview, then **Apply** to save or
 **Cancel** to keep your old selection. Friends see the equipped choices. All
 starter choices are unlocked and have identical putting physics.
 
-The game fills the window at different aspect ratios. In **Settings**, choose
-borderless or exclusive fullscreen. **Alt+Enter** toggles the selected mode;
+The game fills the window at different aspect ratios. In **Settings → Display**,
+choose borderless or exclusive fullscreen, or select a window size and choose
+**Apply resolution**. **Alt+Enter** toggles the selected mode;
 returning to windowed mode restores its prior size and position. The operating
 system and graphics backend determine exclusive presentation behavior.
 
@@ -82,4 +88,4 @@ Select a group, press **Ctrl+B** or open **B → Blueprints**, give it a name an
 
 Press **Ctrl+S** to save your park. **Save as…** in the menu creates a separate copy. Saving an included park creates an editable personal copy.
 
-Changed parks also receive automatic recovery checkpoints. Check the save status before leaving: continuous terrain work can delay a checkpoint. To restore one, open **Explore parks → Recovery copies → Recover park**, then save the recovered park to keep it. Recovery preserves the course, not a running round.
+Changed parks also receive automatic recovery checkpoints. Check the save status before leaving: continuous terrain work can delay a checkpoint. To restore one, open **Explore parks → Recovery → Recover park**, then save the recovered park to keep it. Recovery preserves the course, not a running round.

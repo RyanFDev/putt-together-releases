@@ -30,9 +30,10 @@ disable Windows security or your antivirus to run it.
 4. Hold **left mouse** to address the ball. Keep it held, move the mouse **right**
    to draw the putter back, then **left** to swing through. A small, slow stroke
    is a useful starting point. Releasing the button leaves the stance.
-5. After holing out, choose **Next hole**, or **Finish your round** on the final
-   hole. When everyone has finished, open the scorecard for results and choose
-   **Back to building**.
+5. After holing out, press **N** to advance, or finish on the final hole. With
+   Putter equipped, **Tab** releases the cursor and focuses **Next hole / Finish
+   round**; click or press **Enter**. When everyone has finished, open the
+   scorecard for results and choose **Back to building**.
 
 You can also practise between rounds: use **P** to place a practice ball on a
 clear playing surface, or aim at a tee and press **E**. Click to confirm practice
@@ -49,17 +50,24 @@ While holding right mouse in this aiming view, use the **wheel** to change the
 distance reference; **Shift+wheel** makes finer changes. The line is a guide,
 not a promise: your stroke, the slope, obstacles and other balls affect the shot.
 
-**Settings** offers Easy and Advanced putting, left- or right-handed stance,
+**Settings → Putting** offers Easy and Advanced putting, left- or right-handed stance,
 stroke direction and sensitivity. Easy guides the putter's contact. Advanced
 lets you hit off-centre or miss. Handedness and mouse stroke direction are
-separate settings. Reduce motion and Reduce flashing lights are there too.
+separate settings. Reduce motion and Reduce flashing lights are under
+**Settings → Comfort**.
 
-Open **Customize** from the menu or Settings to choose your ball's color and
-pattern, putter style and finish. The starter collection is unlocked. These
+Open **Customize** from the menu, or **Settings → Display → Customize ball &
+putter**, to choose your ball's color and pattern, putter style and finish. The starter collection is unlocked. These
 choices are cosmetic and are visible to friends in multiplayer.
 
-**Alt+Enter** toggles fullscreen. Settings lets you choose borderless or exclusive
-fullscreen; the game and interface also fit wider, taller or smaller windows.
+**Alt+Enter** toggles fullscreen. **Settings → Display** lets you choose
+borderless or exclusive fullscreen, or select a window size with **Apply
+resolution**. Returning from fullscreen restores your previous window layout.
+
+**Explore parks** groups **Your parks** and **Premade** courses. Use the heart
+buttons to keep favorites, and the category tabs, search, venue filter and sort
+menu to find a park. **Refresh** rereads the library if files changed outside
+the game.
 
 ## Build something of your own
 
@@ -97,9 +105,13 @@ recovery copies are under the same `PuttTogether` folder. Paste that path into
 File Explorer's address bar to find them.
 
 The game keeps periodic recovery copies of changed parks. If you lose unsaved
-work, try **Explore parks → Recovery copies → Recover park**, then save the
+work, try **Explore parks → Recovery → Recover park**, then save the
 recovered park to your library. A recovery copy doesn't replace using Save,
 and it doesn't resume a running match.
+
+**Settings → Park** lets the host set the time of day, pause daylight or choose
+a day length from 1 to 120 minutes. These settings save with the park; pausing
+daylight leaves balls and machinery running.
 
 For updates, return to the main menu and choose **Check for Updates**. Choose
 **Update and Restart** when you're ready, or **Later** to keep playing. Updating

@@ -27,7 +27,7 @@ Keep the tunnel running and share its HTTPS address. Friends paste that address 
 
 Everyone can build in the shared park. Press **B** for pieces, **Tab** for tool options and **F1** for controls. Save your work before replacing a park.
 
-Open **Play a round** and have each human choose **Ready to play**. The host chooses any bots and starts the round. Editing the course clears readiness, so ready up again after changes. Take shots together, open **Scorecard** to check progress, and choose **Next hole** after holing out, or **Finish your round** on the last hole. Once everyone has finished, choose **Back to building** from the results. Your putter strikes only your ball; balls can still knock into each other. See [Controls and putting](https://github.com/RyanFDev/putt-together-releases/blob/main/CONTROLS.md).
+Open **Play a round** and have each human choose **Ready to play**. The host chooses any bots and starts the round. Editing the course clears readiness, so ready up again after changes. Take shots together, open **Scorecard** to check progress, and press **N** after holing out to advance or finish. With Putter equipped, **Tab** releases the cursor and focuses **Next hole / Finish round**; click or press **Enter**. Once everyone has finished, choose **Back to building** from the results. Your putter strikes only your ball; balls can still knock into each other. See [Controls and putting](https://github.com/RyanFDev/putt-together-releases/blob/main/CONTROLS.md).
 
 ## Disconnects and limits
 

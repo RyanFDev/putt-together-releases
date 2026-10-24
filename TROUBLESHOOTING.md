@@ -17,7 +17,7 @@ the block. If it closes or shows an error, include that message in a bug report.
 
 ## The controls feel wrong
 
-Open **Settings** and check stroke direction, sensitivity and handedness. The
+Open **Settings → Putting** and check stroke direction, sensitivity and handedness. The
 default stroke draws back to the **right** and swings through to the **left**.
 Changing handedness does not change that mouse direction.
 
@@ -60,7 +60,7 @@ installation until the replacement works; don't merge the two folders.
 
 ## A park is missing or changes weren't saved
 
-Look in **Explore parks → Your saves** and **Recovery copies**. Recovering a park
+Look in **Explore parks → Your parks** and **Recovery**. Recovering a park
 opens an unsaved copy: use **Save** to keep it. Recovery stores the course, not a
 running round or players' positions. Named saves are in
 `%APPDATA%\PuttTogether\parks`; back up the whole `PuttTogether` folder before

@@ -1,12 +1,13 @@
 # Putt Together
 
+![Putt Together, a mini-golf sandbox, beside an in-game view of Willow Island's drawbridge](images/putt-together-header.png)
+
 Build a mini-golf course. Invite a few friends. See who can actually finish it.
 
-Putt Together is a first-person mini-golf sandbox for solo play and groups of up
-to four. Build a course together, then draw your putter back and swing through
-with a physical mouse stroke. Everyone can putt at once, and balls can knock
-into each other. Shape outdoor gardens or indoor neon challenges with the same
-building tools.
+A first-person mini-golf sandbox for solo play and groups of up to four. Shape
+outdoor gardens or indoor neon courses, then draw your putter back and swing
+through with a physical mouse stroke. Everyone can putt at once, and balls can
+knock into each other.
 
 **[Download for Windows](https://github.com/RyanFDev/putt-together-releases/releases/latest)**
  · [Getting started](GETTING_STARTED.md)
@@ -14,104 +15,129 @@ building tools.
  · [Multiplayer](MULTIPLAYER.md)
  · [Patch notes](CHANGELOG.md)
 
-[![Watch Putt Together gameplay](images/gameplay-preview.jpg)](media/putt-together-gameplay.mp4)
+## Watch the game
 
-[30-second in-game demonstration](media/putt-together-gameplay.mp4) · Physical
-putting, building and ball collisions. Captured using a scripted mouse-input
-replay and a staged local collision; this is not an online multiplayer recording.
-[Lightweight preview (GIF)](media/gameplay-preview.gif).
+https://github.com/user-attachments/assets/08216a1c-cabf-43c3-92c2-86994c356060
 
-<table>
-<tr>
-<td><img src="images/physical-putting.jpg" alt="A first-person view of the putter and ball while lining up a physical mouse stroke" width="640"></td>
-<td><img src="images/build-a-challenge.jpg" alt="Building a mini-golf challenge with reusable course pieces" width="640"></td>
-</tr>
-<tr><td>Draw back and swing through</td><td>Build your own challenge</td></tr>
-<tr>
-<td><img src="images/willow-island.png" alt="Willow Island's playable green, water moat and timed drawbridge" width="640"></td>
-<td><a href="images/customize.jpg"><img src="media/customize.gif" alt="Three ball patterns and putter combinations in the Customize menu" width="640"></a></td>
-</tr>
-<tr><td>Try Willow Island's timed drawbridge</td><td>Choose your ball and putter</td></tr>
-</table>
+Recorded in-game during solo play with Easy putting enabled.
 
 ## Start playing
 
 1. Open the [latest release](https://github.com/RyanFDev/putt-together-releases/releases/latest)
    and download `PuttTogether-<version>-windows-x86_64.zip` from **Assets**.
    Choose the game ZIP, not GitHub's **Source code** archives.
-2. Extract the whole ZIP into a folder you can write to. Keep the extracted files
-   together and run **PuttTogether.exe**.
+2. Extract the whole ZIP into a writable folder, keep its files together and run
+   **PuttTogether.exe**.
 3. Choose **Explore parks → Pocket Links** for a short three-hole course,
    or **Create a park** to start building.
 
-You'll need 64-bit Windows, a keyboard and a mouse. Godot and a GitHub account
-are not required to play. These are early beta builds; hardware requirements
-haven't been benchmarked yet.
+**Early beta · 64-bit Windows · Keyboard and mouse.** No Godot installation or
+player account required. Hardware requirements haven't been benchmarked yet.
+The executable is unsigned; use the official release and don't disable Windows
+security or your antivirus. See [installation help](GETTING_STARTED.md#install).
 
-## What's in the beta
+## Play it and build it
 
-- **Physical putting.** Easy mode guides contact; Advanced allows off-centre
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="images/physical-putting.jpg"><img src="images/physical-putting.jpg" alt="First-person putting view with the ball, putter and stroke guides" width="640"></a>
+<p><strong>Make the stroke.</strong><br>Draw back and swing through with your mouse.</p>
+</td>
+<td width="50%" valign="top">
+<a href="images/build-a-challenge.jpg"><img src="images/build-a-challenge.jpg" alt="Course editor placing a bumper among the tracks and obstacles" width="640"></a>
+<p><strong>Build the challenge.</strong><br>Place pieces, shape terrain and make the course your own.</p>
+</td>
+</tr>
+</table>
+
+- **Physical putting.** Easy mode guides contact. Advanced allows off-centre
   hits and misses. Your mouse movement makes the stroke.
-- **Shared building and simultaneous rounds.** Host a park, build with friends
-  and play a scored round with interacting balls. Optional bots fill spare places.
-- **Build a challenge.** Sculpt and paint terrain, connect tracks and ramps,
-  and add moving obstacles. Connections, grid snapping and reusable blueprints
-  help you fit the pieces together.
-- **Play, change and save.** Explore eleven garden and neon layouts or start
-  a blank park. Save your own courses and recover recent unsaved work.
-- **Your ball and putter.** Choose colors, patterns, putter styles and finishes
-  in **Customize**. The starter collection is unlocked; choices are cosmetic.
+- **Build and play together.** Shared editing, simultaneous scored rounds and
+  interacting balls, with optional bots to fill spare places.
+- **Make your own park.** Sculpt and paint terrain, connect tracks and ramps,
+  and add moving obstacles. Grid snapping and reusable blueprints help pieces fit.
+- **Explore and customize.** Eleven included garden and neon layouts, plus blank
+  parks. Choose ball colors and patterns, putter styles and finishes. The starter
+  collection is unlocked, and equipment choices are cosmetic.
 
-## The first few controls
+## Your first putt
+
+Press **1** for Putter and **F** to find your ball. Hold **left mouse** throughout
+the stroke: move **right to draw back**, then **left to swing through**. Start
+with a small, slow stroke. While still holding left mouse, hold **right mouse**
+to aim; release right mouse before swinging.
+
+These are the default directions. **Settings → Putting** lets you change stroke
+direction, handedness and sensitivity, or switch between **Easy** and **Advanced**
+putting.
+Handedness and stroke direction are separate settings.
+
+<details>
+<summary><strong>Quick controls</strong></summary>
 
 | Action | Default control |
 | --- | --- |
 | Walk / sprint / jump | W A S D / Shift / Space |
 | Choose a tool | 1 Putter · 2 Select · 3 Pieces · 4 Terrain · 5 Draw · 6 Water |
 | Open the piece library | B |
-| Current tool options / full controls | Tab / F1 |
+| Tool options / full controls | Tab / F1 |
+| Next hole / finish round after holing out | N |
 | Connections / world-grid snap | C / V while building |
 | Show placement grid | Shift+V |
-| Toggle fullscreen | Alt+Enter |
-| Find your ball | F |
-| Take a shot | Hold left mouse; move right to draw back, then left to swing |
-| Aim while addressing the ball | Keep left mouse held and hold right mouse |
 | Save your park | Ctrl+S |
+| Toggle fullscreen | Alt+Enter |
 
-Those stroke directions are the defaults. **Settings** lets you change stroke
-direction, handedness and sensitivity. See the [controls guide](CONTROLS.md) for
-building shortcuts, fine adjustments and remapping.
+With Putter equipped after holing out, **Tab** releases the cursor and focuses
+**Next hole / Finish round**; click or press **Enter** to advance.
 
-The game fills your window at different aspect ratios. Settings offers borderless
-and exclusive fullscreen; Alt+Enter returns to your previous window layout.
+The game fits different window shapes. **Settings → Display** offers borderless
+and exclusive fullscreen; **Alt+Enter** restores your previous window layout.
+
+</details>
+
+[Full controls and building shortcuts](CONTROLS.md)
+ · [Play your first hole](GETTING_STARTED.md#play-your-first-hole)
 
 ## Playing with friends
 
-Everyone should use the same version. Open a park and choose **Play with friends
-→ Host this park**, then share your connection address. Players on another
-network need port forwarding or a tunnel; there are no invite codes or public
-matchmaking yet. The host must keep the game running.
+Use the same game version. Open a park and choose **Play with friends → Host
+this park**, then share your connection address. Groups support **2–4 golfers,
+including the host**.
 
-The [multiplayer guide](MULTIPLAYER.md) covers LAN play, internet connections,
+Players on another network need port forwarding or a separately configured
+tunnel. There are no invite codes, public matchmaking or host migration yet.
+The host must keep the game running.
+
+The [multiplayer guide](MULTIPLAYER.md) covers LAN play, internet setup,
 starting a round and reconnecting after a dropped connection.
 
 ## Updates and saved parks
 
-Choose **Check for Updates** on the main menu, then **Update and Restart** when a
-new build is available. Builds from v0.1.3 onward include the updater. If you're
-using an older development build, download a complete release once to get it.
+Choose **Check for Updates → Update and Restart** from the main menu. The updater
+is included from v0.1.3 onward; older development builds need one complete
+release download. Finish shared sessions before updating because the game restarts.
 
-Saved parks, blueprints and settings live in `%APPDATA%\PuttTogether`, separately
-from the game folder. Updating keeps them in place. Use **Save** to keep a named
-park; recovery checkpoints are an extra fallback.
+Parks live in `%APPDATA%\PuttTogether\parks`. Settings, blueprints and recovery
+copies are under `%APPDATA%\PuttTogether`, separate from the game folder.
+Updates keep them in place. Use **Save** for a named park; recovery copies are a
+fallback, not a replacement, and do not restore a running round.
+
+[Save and recovery help](GETTING_STARTED.md#keep-your-work)
+ · [Update troubleshooting](TROUBLESHOOTING.md#an-update-failed)
 
 ## Found a problem?
 
 Check [troubleshooting](TROUBLESHOOTING.md), then
 [open an issue](https://github.com/RyanFDev/putt-together-releases/issues/new)
-or send the details to the person who shared the game with you. Include the
-version shown on the menu, what you were doing and whether you were playing
-solo, hosting or joining. A short video or a saved park can help reproduce it.
+or contact the person who shared the game with you. Include the game version,
+what happened and whether you were solo, hosting or joining. A short recording
+or saved park can help. Remove private addresses, tokens and unrelated personal
+information before sharing files.
+
+## Credits
+
+Created by **KriticalKoncepts**.
 
 Built with [Godot](https://godotengine.org/) and
 [Terrain3D](https://github.com/TokisanGames/Terrain3D), with assets from

@@ -3,6 +3,23 @@
 [Latest download](https://github.com/RyanFDev/putt-together-releases/releases/latest)
  · [Getting started](GETTING_STARTED.md)
 
+## 0.1.7 — 23 October 2026
+
+- Group personal and premade parks, add favorites, and improve library filtering
+  and sorting. Open parks faster with a loading screen and fix a false
+  unsaved-changes warning during loading.
+- Organize Settings into Display, Putting, Comfort and Park tabs, with explicit
+  window resolutions and host controls for time of day, daylight pause and day length.
+- Add Frictionless Marble runs, gentle and steep downhill funnels, and improved
+  Chain Lift exits and backward-return contacts.
+- Show clearer piece dimensions, resize indicators and size/drop badges, with
+  related variants grouped in the library.
+- Restore **N** to advance after holing out, and **Tab** cursor access to the
+  **Next hole / Finish round** button with Putter equipped.
+- Show formatted patch notes and expandable release history in the game.
+
+[Full notes](notes/0.1.7.md) · [Release and download](https://github.com/RyanFDev/putt-together-releases/releases/tag/v0.1.7)
+
 ## 0.1.6 — 23 October 2026
 
 - Repair missing path entrances and awkward joins in the included outdoor parks,
