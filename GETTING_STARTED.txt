@@ -1,0 +1,111 @@
+PUTT TOGETHER {{VERSION}} - WINDOWS BETA
+
+INSTALL
+
+Extract the entire ZIP into a writable folder and run PuttTogether.exe.
+Keep all extracted files together. You do not need Godot or a player account.
+The beta uses a keyboard and mouse and runs on 64-bit Windows.
+
+YOUR FIRST ROUND
+
+Open Explore parks and choose Pocket Links for a short three-hole course.
+Choose Play a round to start. Optional bots can join a solo round.
+Use experimental bot AI is off by default; the host can enable it before starting.
+
+Press 1 for Putter and F to find your ball. Face roughly along your shot line.
+Hold LEFT MOUSE, move RIGHT to draw back, then LEFT to swing through.
+Keep the button held during the stroke. Start with a small, slow movement.
+Release it to leave the stance.
+
+To aim, keep left mouse held and hold RIGHT MOUSE as well. Move left/right
+to adjust the line, then release right mouse before making your stroke.
+Q/E fine-tunes aim. Whenever Putter is equipped, the wheel or [ / ] adjusts
+shot power; Shift+wheel makes finer changes. No mouse buttons need to be held.
+Power locks when the club starts moving; release left mouse to adjust again.
+
+Settings lets you change Easy/Advanced putting, stroke direction, handedness
+and sensitivity. Changing handedness does not change the mouse stroke axis.
+The distance line is a guide: pace, contact and the course still affect the shot.
+
+After holing out, press N to advance or finish your round. With Putter equipped,
+Tab releases the cursor and focuses Next hole / Finish round; click or press Enter.
+When everyone has finished, open the scorecard and choose Back to building.
+
+DEFAULT CONTROLS
+
+W A S D        Walk
+Shift / Space  Sprint / jump
+1 / 2 / 3      Putter / Select / Pieces
+4 / 5 / 6      Terrain / Draw / Water
+B              Piece library
+Tab            Tool options / next-hole cursor controls after holing out
+F1             Full controls reference and keyboard remapping
+F2             Optional debug overlays
+F              Find your ball
+N              Next hole / finish round after holing out
+E              Place your ball at a tee / push a drawbridge button
+P              Place a practice ball between rounds
+Backspace      Retry your lie (a penalty applies in scored rounds)
+H              Hole list
+G              Contextual guides
+C / V          Toggle connections / world-grid snapping while building
+Shift+V        Show or hide the placement grid
+Alt+Enter      Toggle fullscreen
+Ctrl+S         Save park
+Ctrl+Z         Undo your edit
+Escape         Cancel the current action or release the mouse
+
+BUILDING
+
+Create a park starts an empty garden or arcade. B opens the piece library.
+Click to place a piece; right mouse cancels the preview. Q/E selects the
+highlighted adjustment, and the wheel changes it. Hold Shift for finer steps.
+Supported dimensions each have their own adjustment and numeric Tab field.
+Elevation moves the whole piece vertically. Tab also has snapping and other settings.
+Hold Shift while placing to temporarily suspend connections and grid snapping.
+The visible grid can stay on even when snapping is off.
+
+Use 2 to select a piece; Shift-click adds or removes pieces from a group.
+M moves a selection, Ctrl+D copies it, and Ctrl+B opens blueprints.
+Use H, then Add hole, to place its tee and cup. Both are needed for a round.
+
+CUSTOMIZE
+
+Choose Customize from the menu. Pick a ball color and pattern, then choose a
+putter style and finish. Apply saves your choices; Cancel keeps your old set.
+The starter collection is unlocked and styles do not change putting physics.
+
+WILLOW ISLAND
+
+Willowbend's last hole crosses a moat. Look at either drawbridge button and
+press E. The bridge lowers, holds for its displayed time, then rises again.
+Press again to extend the timer. Builders can change its size and open duration.
+
+SAVE YOUR PARK
+
+Ctrl+S saves; Save as keeps a separate copy. Included courses can be edited
+and saved as your own parks. Recent unsaved work may be available through
+Explore parks > Recovery. Recover it, then Save to keep it.
+
+Your parks, settings and blueprints are in %APPDATA%\PuttTogether, outside
+this game folder. Recovery copies preserve courses, not running matches.
+
+PLAY WITH FRIENDS
+
+Everyone should use the same version. Open a park, then choose Play with
+friends > Host this park. Share the host's connection address. The host must
+keep the game open. See PLAY_WITH_FRIENDS.md for LAN and internet setup.
+
+UPDATES AND HELP
+
+The game checks for updates on startup, with a cooldown between checks.
+You can also choose Check for Updates from the main menu. Update and Restart
+installs a downloaded build when you are ready; Later lets you keep playing.
+Updating the host ends the shared session. Saved parks and settings stay put.
+
+Player guides, patch notes and connection help:
+https://github.com/RyanFDev/putt-together-releases
+
+If something goes wrong, include the version, what you were doing and whether
+you were hosting or joining. The repository has a troubleshooting guide and
+an issue tracker. A screenshot or short recording is useful too.

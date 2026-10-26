@@ -3,6 +3,24 @@
 [Latest download](https://github.com/RyanFDev/putt-together-releases/releases/latest)
  · [Getting started](GETTING_STARTED.md)
 
+## 0.1.8 — 26 October 2026
+
+- Add the nine-hole Putt 'R Cade course, editable Message Signs and arcade wall graphics.
+- Expose supported resize axes directly through Q/E, wheel and numeric Tab options.
+- Add optional hole boundaries, free practice placement independent of hole bounds,
+  explicit portal pairs and branching bot guides with optional Stop in region behavior.
+- Add shot-power wheel and keyboard controls with brief feedback, improve input
+  consistency and protect unfinished strokes from delayed mouse input.
+- Add four numbered tee slots, improve close-ball putter contact and match boost
+  activation to the visible pad.
+- Add optional experimental bot AI, off by default in round setup, with improved
+  routing, human putting priority and next-hole recovery.
+- Add optional F2 overlays for boundaries, prop zones and bot planning targets.
+- Known issue: experimental bots can still stutter and struggle on complex holes,
+  especially with several bots playing.
+
+[Full notes](notes/0.1.8.md) · [Release and download](https://github.com/RyanFDev/putt-together-releases/releases/tag/v0.1.8)
+
 ## 0.1.7 — 23 October 2026
 
 - Group personal and premade parks, add favorites, and improve library filtering

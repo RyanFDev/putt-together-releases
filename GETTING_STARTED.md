@@ -24,7 +24,8 @@ disable Windows security or your antivirus to run it.
    is a small place to learn the controls.
 2. Choose **Play a round** and start a solo round. You can add bots if you'd like
    company. For a group, each person chooses **Ready to play** before the host
-   starts.
+   starts. **Use experimental bot AI** is off by default; the host can enable it
+   before starting that round.
 3. Press **1** for Putter and **F** to find your ball. Face roughly along the line
    you want to play.
 4. Hold **left mouse** to address the ball. Keep it held, move the mouse **right**
@@ -37,7 +38,8 @@ disable Windows security or your antivirus to run it.
 
 You can also practise between rounds: use **P** to place a practice ball on a
 clear playing surface, or aim at a tee and press **E**. Click to confirm practice
-placement; right mouse cancels it.
+placement; right mouse cancels it. Placing away from a tee starts free practice
+without hole boundaries; placing on a tee mat or using E at a tee selects its hole.
 
 ## Line up a shot
 
@@ -46,9 +48,11 @@ down the line. Move left or right to adjust aim and up or down to tilt the view.
 Release right mouse to return to the ball, then make your stroke. **Q/E** gives
 smaller aim adjustments.
 
-While holding right mouse in this aiming view, use the **wheel** to change the
-distance reference; **Shift+wheel** makes finer changes. The line is a guide,
-not a promise: your stroke, the slope, obstacles and other balls affect the shot.
+Whenever Putter is equipped, use the **wheel** or **[ / ]** to adjust shot power;
+**Shift+wheel** makes finer changes. No mouse buttons need to be held. Power
+locks when the club starts moving; release left mouse to leave the stance and
+adjust again. The metres are a flat-ground reference: your stroke, the slope,
+obstacles and other balls affect the shot.
 
 **Settings → Putting** offers Easy and Advanced putting, left- or right-handed stance,
 stroke direction and sensitivity. Easy guides the putter's contact. Advanced
@@ -76,8 +80,9 @@ also change an included course and use **Save as** to keep your own version.
 
 - **B** opens the piece library. Choose a piece, aim at its position and click
   to place it. Right mouse cancels a preview.
-- **Q/E** selects the visible adjustment, such as Rotation or Height. The
-  **wheel** changes it; hold **Shift** for finer steps. **Tab** opens tool options.
+- **Q/E** selects the visible adjustment, such as Rotation, Elevation or a
+  supported size axis. The **wheel** changes it; hold **Shift** for finer steps.
+  **Tab** opens tool options, including separate numeric dimension fields.
 - **2** selects existing pieces. **M** moves a selection, **Ctrl+D** copies it,
   and **Ctrl+Z** undoes your edit.
 - **C** toggles connections and **V** toggles grid snapping. **Shift+V** shows

@@ -29,6 +29,11 @@ Everyone can build in the shared park. Press **B** for pieces, **Tab** for tool 
 
 Open **Play a round** and have each human choose **Ready to play**. The host chooses any bots and starts the round. Editing the course clears readiness, so ready up again after changes. Take shots together, open **Scorecard** to check progress, and press **N** after holing out to advance or finish. With Putter equipped, **Tab** releases the cursor and focuses **Next hole / Finish round**; click or press **Enter**. Once everyone has finished, choose **Back to building** from the results. Your putter strikes only your ball; balls can still knock into each other. See [Controls and putting](https://github.com/RyanFDev/putt-together-releases/blob/main/CONTROLS.md).
 
+**Use experimental bot AI** is off by default in round setup. The host chooses
+it before the round starts; all bots in that round use the chosen planner.
+The host assigns stable numbered tee slots. When the host advances to the next
+hole, paused experimental bots resume on the new hole.
+
 ## Disconnects and limits
 
 The host must keep the game and session open. Closing the host ends the session; another player cannot take over. There is no public matchmaking or invitation integration.
